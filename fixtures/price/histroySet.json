@@ -1,0 +1,19 @@
+{
+  "code": "200",
+  "message": "",
+  "success": "true",
+  "data": [
+    {
+      "createUser": "操作人",
+      "logDes": "设置记录",
+      "createTime": "2015-10-10"
+    },
+    {
+      "createUser": "操作人2",
+      "logDes": "设置记录2",
+      "createTime": "2015-10-11"
+    }
+  ],
+  "totalCount": "2"
+}
+

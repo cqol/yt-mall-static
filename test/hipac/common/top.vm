@@ -1,0 +1,93 @@
+<div class="header clearfix bg-red pos-r">
+		<div class=" f-l w-200px pl-20">
+            <a href="${base}/admin/mall/home">
+                <img src="${gulpPath}/images/shared/logo.jpg?t=201510182148" width="200" height="60" class="d-b" />
+            </a>
+        </div>
+    <div class=" f-r pt-15 cor-w ta-r ov-f" style="width:300px;height: 45px;">
+        #if($currentUser.userType=='2')
+        <div class="d-ib pl-10 height-30 cor-cs w-120px of-h" title="$currentUser.shopVo.shopName">
+            $currentUser.shopVo.shopName
+        </div>
+        #end
+        <div class="d-ib pr-10 height-30 pl-10" >
+            <a href="/admin/notice/shopNoticeList.do"><i class="iconfont mr-10 cur-p cor-grey5" style="font-size: 18px">&#xe6ec;</i></a><span>|</span>
+        </div>
+        <div class="d-ib height-30 cur-p cor-grey5 mr-20" id="setupBtn">
+            设置<i class="icon iconfont ml-5">&#xe6d5;</i>
+        </div>
+    </div>
+    <div class="pl-20 pr-10 height-30 pt-15 fs-16 first-menu">
+            <span class="mr-40 ml-30 pos-r ta-c d-ib">
+                <a href="${base}/admin/notice/shopNoticeList.do" class="cor-w cur-p #if($mainMenu == "shop")active#end">店铺<span>■</span></a>
+            </span>
+        #if($currentUser.mallAuth)
+            <span class="mr-40 pos-r d-ib">
+                <a href="${base}/admin/mall/item/onsale.do" class="cor-w cur-p #if($mainMenu == "mall")active#end">微信商城<span>■</span></a>
+            </span>
+        #end
+            <span class="mr-40 pos-r d-ib">
+                <a href="${base}/admin/order/order/now.do" class="cor-w cur-p #if($mainMenu == "order")active#end">订单<span>■</span></a>
+            </span>
+        #if($currentUser.isManager())
+            #if ($!currentUser.shopVo.shopType != '4')
+            <span class="mr-40 pos-r d-ib">
+                <a href="${base}/admin/order/order/countShopSellInfo.do" class="cor-w cur-p #if($mainMenu == "data")active#end">数据<span>■</span></a>
+            </span>
+            #end
+        #end
+            <span class="mr-10 pos-r d-ib">
+                <a href="${base}/admin/item/item/itemList.do" class="cor-w cur-p #if($mainMenu == "goods")active#end">商品<span>■</span></a>
+            </span>
+        #if(!$currentUser.mallAuth)
+            #if(($currentUser.shopVo.shopType == '1' || $currentUser.shopVo.isMainStore == '1') && $isWhiteList && $currentUser.isManager())
+                <span class="ml-30 d-ib">
+                <a class="register-mall" href="/admin/mall/auth">开通微商城</a>
+                </span>
+            #end
+        #end
+        <input type="hidden" id="xxoo" name="xoxo" value="dt:$currentUser.shopVo.shopType zd:$currentUser.shopVo.isMainStore bd:$currentUser.mallAuth bmd:$isWhiteList"/>
+    </div>
+
+##    <div class="pos-a top-80 right-20 d-n" id="aboutWrap">
+##        <img src="${gulpPath}$imgPath/images/about1.jpg?t=201510182148" class="d-b" id="aboutClose" />
+##        <a class="d-b" target="_blank" href="http://wpa.b.qq.com/cgi/wpa.php?ln=1&key=XzgwMDA3MDM4Nl8yODExOTlfODAwMDcwMzg2XzJf" ><img src="${gulpPath}$imgPath/images/about2.jpg?t=201510182148" /></a>
+##    </div>
+    <!--<iframe style="position:absolute;top:0;left:0;z-index:-1;width:100%; height:60px;background:none;" scrolling="no" frameborder="0"></iframe>-->
+</div>
+
+<script id="sysConfigTpl" type="text/tpl">
+    <ul id="configWrap">
+        #if($!currentUser.shopVo.subShopPrice != 1)
+        <li id="setPriceCheckbox" class="height-30 pt-5 pb-5 pl-10 bb-1 cur-p cor-grey6 password-modify #if($!{currentUser.hidePriceInfo}=='0')active#end">
+            <i class="icon iconfont mr-10 cor-green" style="font-size:18px;">#if($!{currentUser.hidePriceInfo}=='0') &#xe65d; #else  &#xe65e; #end</i>价格可见
+        </li>
+        #end
+
+        <li id="editPasswordBtn" class="height-30 pt-5 pb-5 pl-10 bb-1 cur-p cor-grey6 password-modify"><i class="icon iconfont mr-10 cor-green" style="font-size:18px;">&#xe650;</i>修改密码</li>
+        <li id="editPasswordBtn" class="height-30 pt-5 pb-5 pl-40 cor-grey6">${currentUser.userNickName}</li>
+        <li id="loginOutBtn" class="height-30 pt-5 pb-5 pl-10 cur-p cor-grey6 login-out"><i class="icon iconfont mr-10 cor-cs" style="font-size:18px;">&#xe6d8;</i>退出</li>
+    </ul>
+</script>
+
+<!--修改密码-->
+<script id="editPasswordTpl" type="text/tpl">
+    <div id="editPasswordWrap">
+        <table>
+            <tr>
+                <td class="pb-10">原密码：</td>
+                <td class="pb-10">
+                    <input class="ipt" type="password" id="formerPwd" name="formerPwd" />
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-10">新密码：</td>
+                <td class="pb-10"><input class="ipt" type="password" id="pwd1"/></td>
+            </tr>
+            <tr>
+                <td id="password2" class="pb-10">重复密码：</td>
+                <td class="pb-10"><input class="ipt" type="password" id="pwd2" /></td>
+            </tr>
+        </table>
+    <div>
+</script>

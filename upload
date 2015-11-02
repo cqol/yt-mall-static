@@ -1,0 +1,57 @@
+#!/bin/bash
+
+# git库是否有未提交文件
+lines=`git status --porcelain | wc -l`
+if [ "$lines" -gt 0 ]; then
+  echo -e "\033[31m Git not clean, please commit first."
+  exit
+fi
+
+# 主干
+master="master"
+
+# 当前分支
+branch=`git status --branch | sed -n 1p`
+regex="([^[:space:]]+)$"
+if [[ "$branch" =~ $regex ]]; then
+    branch=${BASH_REMATCH[1]}
+fi
+
+# 禁止操作主干
+if [ "$branch" == "master" ]; then
+  echo -e "\033[31m Please switch to your dev branch."
+  exit
+fi
+
+# 上传测试FTP
+if [ "$1" == "-test" ]; then
+  git pull origin "$master"
+  git pull origin "$branch"
+  git push origin "$branch"
+  gulp upload -m test
+  echo -e "\n\033[92m Upload to test ftp successfully.\n"
+
+# 上传发布FTP
+elif [ "$1" == "-deploy" ]; then
+  git pull origin "$master"
+  git pull origin "$branch"
+  git push origin "$branch"
+
+  git checkout "$master"
+  git merge "$branch"
+  git push origin "$master"
+  gulp upload -m deploy
+
+  gulp bump
+  git add .
+  git commit -m "new release"
+  git push origin master
+  git checkout "$branch"
+  git pull origin master
+  git push origin "$branch"
+  echo -e "\n\033[92m Upload to deploy ftp successfully.\n"
+
+else
+  echo -e "\033[31m Please select upload mode."
+
+fi

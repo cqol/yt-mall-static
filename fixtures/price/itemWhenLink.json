@@ -1,0 +1,1182 @@
+
+{
+  "success" : true,
+  "data" : [ {
+    "itemName" : "尿不湿-cc商品名称",
+    "itemStock" : 500,
+    "minPrice" : 0.9166666666666666,
+    "name" : "尿不湿-cc商品名称",
+    "id" : 186,
+    "stock" : 500,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10101005384131.png@140w@!100w-100h"
+  }, {
+    "itemName" : "Umcka樱桃风味孩童伤风甜浆，4盎司",
+    "itemStock" : 29,
+    "minPrice" : 1.0,
+    "name" : "Umcka樱桃风味孩童伤风甜浆，4盎司",
+    "id" : 185,
+    "stock" : 29,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091726166016.jpg@!100w-100h"
+  }, {
+    "itemName" : "Wellness樱桃口味儿童配方止咳液",
+    "itemStock" : 10,
+    "minPrice" : 1.0,
+    "name" : "Wellness樱桃口味儿童配方止咳液",
+    "id" : 184,
+    "stock" : 10,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091724231758.jpg@!100w-100h"
+  }, {
+    "itemName" : "Munchkin, 软头婴儿勺，3个月以上，六只装",
+    "itemStock" : 22,
+    "minPrice" : 2.5,
+    "name" : "Munchkin, 软头婴儿勺，3个月以上，六只装",
+    "id" : 183,
+    "stock" : 22,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091706092719.jpg@!100w-100h"
+  }, {
+    "itemName" : "Hello Kitty,隔热吸管杯",
+    "itemStock" : 15,
+    "minPrice" : 1.0,
+    "name" : "Hello Kitty,隔热吸管杯",
+    "id" : 182,
+    "stock" : 15,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091701318344.jpg@!100w-100h"
+  }, {
+    "itemName" : "Munchkin, 宝宝扭扭吸管杯",
+    "itemStock" : 5,
+    "minPrice" : 0.95,
+    "name" : "Munchkin, 宝宝扭扭吸管杯",
+    "id" : 181,
+    "stock" : 5,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091658044690.jpg@!100w-100h"
+  }, {
+    "itemName" : "Mommy's Bliss, Mommy's Bliss，",
+    "itemStock" : 15,
+    "minPrice" : 0.01,
+    "name" : "Mommy's Bliss, Mommy's Bliss，",
+    "id" : 180,
+    "stock" : 15,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091649025468.jpg@!100w-100h"
+  }, {
+    "itemName" : "Now Foods,儿童牙膏凝胶，草莓味，3.0盎司（85",
+    "itemStock" : 300,
+    "minPrice" : 0.01,
+    "name" : "Now Foods,儿童牙膏凝胶，草莓味，3.0盎司（85",
+    "id" : 177,
+    "stock" : 300,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10081109511965.jpg@!100w-100h"
+  }, {
+    "itemName" : "Earth's Best, 儿童有机苹果汁，",
+    "itemStock" : 20,
+    "minPrice" : 0.1,
+    "name" : "Earth's Best, 儿童有机苹果汁，",
+    "id" : 179,
+    "stock" : 20,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10091122461157.jpg@!100w-100h"
+  }, {
+    "itemName" : "Nature's Plus, 可爱动物造",
+    "itemStock" : 499,
+    "minPrice" : 0.01,
+    "name" : "Nature's Plus, 可爱动物造",
+    "id" : 178,
+    "stock" : 499,
+    "picture" : "http://staticonline.hipac.cn/item/201510/10081452019675.jpg@!100w-100h"
+  }, {
+    "itemName" : "狒狒测试商品1，误删除",
+    "itemStock" : 46,
+    "minPrice" : 27.142857142857142,
+    "name" : "狒狒测试商品1，误删除",
+    "id" : 129,
+    "stock" : 46,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09111441147736.jpg@!100w-100h"
+  }, {
+    "itemName" : "狒狒测试商品2，误删除",
+    "itemStock" : 30,
+    "minPrice" : 90.0,
+    "name" : "狒狒测试商品2，误删除",
+    "id" : 130,
+    "stock" : 30,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09111442202368.jpg@!100w-100h"
+  }, {
+    "itemName" : "狒狒测试商品_一级方程式赛车,误删除",
+    "itemStock" : 41,
+    "minPrice" : 45.0,
+    "name" : "狒狒测试商品_一级方程式赛车,误删除",
+    "id" : 146,
+    "stock" : 41,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141931375664.gif@!100w-100h"
+  }, {
+    "itemName" : "小潘来桑品1",
+    "itemStock" : 93,
+    "minPrice" : 10.0,
+    "name" : "小潘来桑品1",
+    "id" : 166,
+    "stock" : 93,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181553254656.jpg@!100w-100h"
+  }, {
+    "itemName" : "微信活动测试商品0918",
+    "itemStock" : 117,
+    "minPrice" : 1.0,
+    "name" : "微信活动测试商品0918",
+    "id" : 167,
+    "stock" : 117,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181701178123.png@!100w-100h"
+  }, {
+    "itemName" : "0921测试商品01",
+    "itemStock" : 82,
+    "minPrice" : 10.0,
+    "name" : "0921测试商品01",
+    "id" : 168,
+    "stock" : 82,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09211043372975.jpg@!100w-100h"
+  }, {
+    "itemName" : "萝卜桑1",
+    "itemStock" : 45,
+    "minPrice" : 0.01,
+    "name" : "萝卜桑1",
+    "id" : 171,
+    "stock" : 45,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09221152037860.jpg@!100w-100h"
+  }, {
+    "itemName" : "测试_狒狒商品",
+    "itemStock" : 31,
+    "minPrice" : 99.0,
+    "name" : "测试_狒狒商品",
+    "id" : 172,
+    "stock" : 31,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09231459020379.png@!100w-100h"
+  }, {
+    "itemName" : "举起手来，不许动",
+    "itemStock" : 50,
+    "minPrice" : 10.0,
+    "name" : "举起手来，不许动",
+    "id" : 173,
+    "stock" : 50,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09231733001258.jpg@!100w-100h"
+  }, {
+    "itemName" : "小鱼",
+    "itemStock" : 11,
+    "minPrice" : 90.0,
+    "name" : "小鱼",
+    "id" : 174,
+    "stock" : 11,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09231936457748.jpg@!100w-100h"
+  }, {
+    "itemName" : "1212dfd",
+    "itemStock" : 11,
+    "minPrice" : 1.3333333333333333,
+    "name" : "1212dfd",
+    "id" : 176,
+    "stock" : 11,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09301107120239.jpg@!100w-100h"
+  }, {
+    "itemName" : "小鹿鹿测试商品4，勿动",
+    "itemStock" : 10000,
+    "minPrice" : 69.375,
+    "name" : "小鹿鹿测试商品4，勿动",
+    "id" : 165,
+    "stock" : 10000,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181439322684.jpg@!100w-100h"
+  }, {
+    "itemName" : "小鹿鹿测试商品3，勿动 ",
+    "itemStock" : 19996,
+    "minPrice" : 1.0,
+    "name" : "小鹿鹿测试商品3，勿动 ",
+    "id" : 164,
+    "stock" : 19996,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181431454248.jpg@!100w-100h"
+  }, {
+    "itemName" : "小鹿鹿专用测试商品2",
+    "itemStock" : 29999,
+    "minPrice" : 1.0,
+    "name" : "小鹿鹿专用测试商品2",
+    "id" : 163,
+    "stock" : 29999,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181417474113.jpg@!100w-100h"
+  }, {
+    "itemName" : "小鹿鹿专用测试商品1，勿动",
+    "itemStock" : 99993,
+    "minPrice" : 1.0,
+    "name" : "小鹿鹿专用测试商品1，勿动",
+    "id" : 162,
+    "stock" : 99993,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181409479252.png@!100w-100h"
+  }, {
+    "itemName" : "潘来专用3",
+    "itemStock" : 97,
+    "minPrice" : 1.0,
+    "name" : "潘来专用3",
+    "id" : 161,
+    "stock" : 97,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09172211228166.jpg@!100w-100h"
+  }, {
+    "itemName" : "无争用2，用用用，别人别动",
+    "itemStock" : 111108,
+    "minPrice" : 0.01,
+    "name" : "无争用2，用用用，别人别动",
+    "id" : 160,
+    "stock" : 111108,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09172026490008.png@!100w-100h"
+  }, {
+    "itemName" : "无争用1，用用用，别动",
+    "itemStock" : 111218,
+    "minPrice" : 0.01,
+    "name" : "无争用1，用用用，别动",
+    "id" : 159,
+    "stock" : 111218,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09172026004378.png@!100w-100h"
+  }, {
+    "itemName" : "潘来专用2",
+    "itemStock" : 95,
+    "minPrice" : 2.0,
+    "name" : "潘来专用2",
+    "id" : 158,
+    "stock" : 95,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09171654590528.jpg@!100w-100h"
+  }, {
+    "itemName" : "潘来专用1",
+    "itemStock" : 97,
+    "minPrice" : 10.0,
+    "name" : "潘来专用1",
+    "id" : 157,
+    "stock" : 97,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09171646172937.jpg@!100w-100h"
+  }, {
+    "itemName" : "麻美由真",
+    "itemStock" : 39,
+    "minPrice" : 155.4,
+    "name" : "麻美由真",
+    "id" : 156,
+    "stock" : 39,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09170837332083.jpg@!100w-100h"
+  }, {
+    "itemName" : "吉泽明步",
+    "itemStock" : 44,
+    "minPrice" : 1.0,
+    "name" : "吉泽明步",
+    "id" : 155,
+    "stock" : 44,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09161904438761.jpg@!100w-100h"
+  }, {
+    "itemName" : "叶山レイコ",
+    "itemStock" : 30,
+    "minPrice" : 1111.0,
+    "name" : "叶山レイコ",
+    "id" : 153,
+    "stock" : 30,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09170838073971.png@!100w-100h"
+  }, {
+    "itemName" : "小林ひとみ",
+    "itemStock" : 23,
+    "minPrice" : 1.0,
+    "name" : "小林ひとみ",
+    "id" : 152,
+    "stock" : 23,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09170935125496.jpg@!100w-100h"
+  }, {
+    "itemName" : "小泽玛丽亚",
+    "itemStock" : 10,
+    "minPrice" : 1.0,
+    "name" : "小泽玛丽亚",
+    "id" : 150,
+    "stock" : 10,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09170837453105.jpg@!100w-100h"
+  }, {
+    "itemName" : "大大牌卫生巾",
+    "itemStock" : 80,
+    "minPrice" : 0.002,
+    "name" : "大大牌卫生巾",
+    "id" : 149,
+    "stock" : 80,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09151028055303.jpg@!100w-100h"
+  }, {
+    "itemName" : "奶粉奶粉",
+    "itemStock" : 91,
+    "minPrice" : 0.0033333333333333335,
+    "name" : "奶粉奶粉",
+    "id" : 148,
+    "stock" : 91,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09142057145902.jpg@50w@!100w-100h"
+  }, {
+    "itemName" : "黑黑王子",
+    "itemStock" : 96,
+    "minPrice" : 0.0025,
+    "name" : "黑黑王子",
+    "id" : 147,
+    "stock" : 96,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141951146699.jpg@50w@!100w-100h"
+  }, {
+    "itemName" : "DDDDD",
+    "itemStock" : 112,
+    "minPrice" : 1111.0,
+    "name" : "DDDDD",
+    "id" : 145,
+    "stock" : 112,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141918575330.jpg@50w@!100w-100h"
+  }, {
+    "itemName" : "美不美",
+    "itemStock" : 8888,
+    "minPrice" : 1.0,
+    "name" : "美不美",
+    "id" : 142,
+    "stock" : 8888,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141800358611.jpg@50w@!100w-100h"
+  }, {
+    "itemName" : "奉孝测试库存勿动",
+    "itemStock" : 100,
+    "minPrice" : 1.0,
+    "name" : "奉孝测试库存勿动",
+    "id" : 141,
+    "stock" : 100,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141643574231.jpg@!100w-100h"
+  }, {
+    "itemName" : "12121212",
+    "itemStock" : 100,
+    "minPrice" : 1.0,
+    "name" : "12121212",
+    "id" : 140,
+    "stock" : 100,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141637532763.jpg@50w@!100w-100h"
+  }, {
+    "itemName" : "花花洗发露",
+    "itemStock" : 98,
+    "minPrice" : 0.01,
+    "name" : "花花洗发露",
+    "id" : 137,
+    "stock" : 98,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141438490252.jpg@50w@!100w-100h"
+  }, {
+    "itemName" : "新加的商品",
+    "itemStock" : 96,
+    "minPrice" : 1.0,
+    "name" : "新加的商品",
+    "id" : 136,
+    "stock" : 96,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09141148523411.jpg@!100w-100h"
+  }, {
+    "itemName" : "TYDMLG-CSST",
+    "itemStock" : 5,
+    "minPrice" : 1.0,
+    "name" : "TYDMLG-CSST",
+    "id" : 135,
+    "stock" : 5,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09122357108796.jpg@!100w-100h"
+  }, {
+    "itemName" : "800罗汉",
+    "itemStock" : 100,
+    "minPrice" : 133.33333333333334,
+    "name" : "800罗汉",
+    "id" : 132,
+    "stock" : 100,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09111530547309.jpg@!100w-100h"
+  }, {
+    "itemName" : "超了超了9999",
+    "itemStock" : 18,
+    "minPrice" : 9444.0,
+    "name" : "超了超了9999",
+    "id" : 128,
+    "stock" : 18,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09102035135997.jpg@!100w-100h"
+  }, {
+    "itemName" : "1111111",
+    "itemStock" : 11,
+    "minPrice" : 1.0,
+    "name" : "1111111",
+    "id" : 127,
+    "stock" : 11,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09102019120378.jpg@!100w-100h"
+  }, {
+    "itemName" : "1000的商品",
+    "itemStock" : 962,
+    "minPrice" : 1000.0,
+    "name" : "1000的商品",
+    "id" : 126,
+    "stock" : 962,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09091738350973.jpg@!100w-100h"
+  }, {
+    "itemName" : "测试超过500的商品",
+    "itemStock" : 0,
+    "minPrice" : 1111.0,
+    "name" : "测试超过500的商品",
+    "id" : 124,
+    "stock" : 0,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09071440080934.png@!100w-100h"
+  }, {
+    "itemName" : "美国Gerber嘉宝水果星星泡芙组合(草莓香蕉水蜜桃蓝莓任三种）",
+    "itemStock" : 9994,
+    "minPrice" : 111.0,
+    "name" : "美国Gerber嘉宝水果星星泡芙组合(草莓香蕉水蜜桃蓝莓任三种）",
+    "id" : 122,
+    "stock" : 9994,
+    "picture" : ""
+  }, {
+    "itemName" : "bornfree",
+    "itemStock" : 876,
+    "minPrice" : 0.01,
+    "name" : "bornfree",
+    "id" : 120,
+    "stock" : 876,
+    "picture" : ""
+  }, {
+    "itemName" : "价格为0.01的付款商品",
+    "itemStock" : 100959,
+    "minPrice" : 0.01,
+    "name" : "价格为0.01的付款商品",
+    "id" : 119,
+    "stock" : 100959,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08231153200667.png@!100w-100h"
+  }, {
+    "itemName" : "高逼格的大盘鸡",
+    "itemStock" : 9999914,
+    "minPrice" : 0.01,
+    "name" : "高逼格的大盘鸡",
+    "id" : 118,
+    "stock" : 9999914,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08221845077114.jpg@!100w-100h"
+  }, {
+    "itemName" : "gaga001",
+    "itemStock" : 47,
+    "minPrice" : 1.0,
+    "name" : "gaga001",
+    "id" : 117,
+    "stock" : 47,
+    "picture" : ""
+  }, {
+    "itemName" : "干菜",
+    "itemStock" : 99757080,
+    "minPrice" : 0.01,
+    "name" : "干菜",
+    "id" : 116,
+    "stock" : 99757080,
+    "picture" : ""
+  }, {
+    "itemName" : "梅干菜梅干梅干菜梅干梅干菜梅干梅干菜梅干梅干菜梅干梅干菜梅干梅干",
+    "itemStock" : 96,
+    "minPrice" : 11.0,
+    "name" : "梅干菜梅干梅干菜梅干梅干菜梅干梅干菜梅干梅干菜梅干梅干菜梅干梅干",
+    "id" : 115,
+    "stock" : 96,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08181639268030.jpg@!100w-100h"
+  }, {
+    "itemName" : "huodongjiangli",
+    "itemStock" : 9,
+    "minPrice" : 1.0,
+    "name" : "huodongjiangli",
+    "id" : 113,
+    "stock" : 9,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08171600178499.jpg@!100w-100h"
+  }, {
+    "itemName" : "yyy",
+    "itemStock" : 1988,
+    "minPrice" : 1.0,
+    "name" : "yyy",
+    "id" : 111,
+    "stock" : 1988,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08041807479462.png@!100w-100h"
+  }, {
+    "itemName" : "喜宝",
+    "itemStock" : 996,
+    "minPrice" : 2.0,
+    "name" : "喜宝",
+    "id" : 110,
+    "stock" : 996,
+    "picture" : ""
+  }, {
+    "itemName" : "红版铁元",
+    "itemStock" : 9910,
+    "minPrice" : 199.0,
+    "name" : "红版铁元",
+    "id" : 109,
+    "stock" : 9910,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08031519509232.jpg@!100w-100h"
+  }, {
+    "itemName" : "Kids, Body Wash & Shower Gel ",
+    "itemStock" : 19254,
+    "minPrice" : 1.0,
+    "name" : "Kids, Body Wash & Shower Gel ",
+    "id" : 108,
+    "stock" : 19254,
+    "picture" : "http://staticonline.hipac.cn/item/201507/07291715057719.jpg@!100w-100h"
+  }, {
+    "itemName" : "萝卜测试商品",
+    "itemStock" : 171,
+    "minPrice" : 95.0,
+    "name" : "萝卜测试商品",
+    "id" : 107,
+    "stock" : 171,
+    "picture" : "http://staticonline.hipac.cn/item/201507/07291450532340.jpg@!100w-100h"
+  }, {
+    "itemName" : "111111",
+    "itemStock" : 110,
+    "minPrice" : 93.33333333333333,
+    "name" : "111111",
+    "id" : 106,
+    "stock" : 110,
+    "picture" : "http://staticonline.hipac.cn/item/201507/07241604522152.jpg@!100w-100h"
+  }, {
+    "itemName" : "测试商品0720测试",
+    "itemStock" : 127,
+    "minPrice" : 10.0,
+    "name" : "测试商品0720测试",
+    "id" : 105,
+    "stock" : 127,
+    "picture" : "http://staticonline.hipac.cn/item/201507/07202024490656.jpg@!100w-100h"
+  }, {
+    "itemName" : "微信测试",
+    "itemStock" : 208,
+    "minPrice" : 1.0,
+    "name" : "微信测试",
+    "id" : 104,
+    "stock" : 208,
+    "picture" : "http://staticonline.hipac.cn/item/201507/07201506260960.jpg@!100w-100h"
+  }, {
+    "itemName" : "测试0720",
+    "itemStock" : 95,
+    "minPrice" : 110.0,
+    "name" : "测试0720",
+    "id" : 103,
+    "stock" : 95,
+    "picture" : "http://staticonline.hipac.cn/item/201507/07201030287262.jpg@!100w-100h"
+  }, {
+    "itemName" : "APP测试库存商品",
+    "itemStock" : 29,
+    "minPrice" : 0.1,
+    "name" : "APP测试库存商品",
+    "id" : 100,
+    "stock" : 29,
+    "picture" : "http://staticonline.hipac.cn/item/201506/06302102564103.png@!100w-100h"
+  }, {
+    "itemName" : "微信活动商品02",
+    "itemStock" : 95,
+    "minPrice" : 1.0,
+    "name" : "微信活动商品02",
+    "id" : 98,
+    "stock" : 95,
+    "picture" : "http://staticonline.hipac.cn/20150625/06251514362299885851.png@!100w-100h"
+  }, {
+    "itemName" : "微信商品01",
+    "itemStock" : 96,
+    "minPrice" : 0.9333333333333332,
+    "name" : "微信商品01",
+    "id" : 97,
+    "stock" : 96,
+    "picture" : "http://staticonline.hipac.cn/20150625/06251512494729985222.png@!100w-100h"
+  }, {
+    "itemName" : "小路专用2",
+    "itemStock" : 946,
+    "minPrice" : 1.25,
+    "name" : "小路专用2",
+    "id" : 95,
+    "stock" : 946,
+    "picture" : "http://staticonline.hipac.cn/20150615/06151550217935241031.jpg@!100w-100h"
+  }, {
+    "itemName" : "0613测试",
+    "itemStock" : 94,
+    "minPrice" : 1.0,
+    "name" : "0613测试",
+    "id" : 93,
+    "stock" : 94,
+    "picture" : "http://staticonline.hipac.cn/20150613/06132202510212454612.jpg@!100w-100h"
+  }, {
+    "itemName" : "荷兰牛栏测试",
+    "itemStock" : 1217,
+    "minPrice" : 0.01,
+    "name" : "荷兰牛栏测试",
+    "id" : 92,
+    "stock" : 1217,
+    "picture" : "http://staticonline.hipac.cn/20150611/06111803303941824294.jpg@!100w-100h"
+  }, {
+    "itemName" : "世界真美好",
+    "itemStock" : 143,
+    "minPrice" : 1.0,
+    "name" : "世界真美好",
+    "id" : 86,
+    "stock" : 143,
+    "picture" : ""
+  }, {
+    "itemName" : "中国世界美好",
+    "itemStock" : 1563,
+    "minPrice" : 10.0,
+    "name" : "中国世界美好",
+    "id" : 85,
+    "stock" : 1563,
+    "picture" : "http://staticonline.hipac.cn/20150605/06051516534415704487.jpg@!100w-100h"
+  }, {
+    "itemName" : "活动奖励微信测试0.01元(后台改过)",
+    "itemStock" : 71,
+    "minPrice" : 0.01,
+    "name" : "活动奖励微信测试0.01元(后台改过)",
+    "id" : 83,
+    "stock" : 71,
+    "picture" : "http://staticonline.hipac.cn/20150603/06031707487966416185.jpg@!100w-100h"
+  }, {
+    "itemName" : "花王NB90尿不湿",
+    "itemStock" : 2920,
+    "minPrice" : 112.0,
+    "name" : "花王NB90尿不湿",
+    "id" : 43,
+    "stock" : 2920,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰牛栏1段",
+    "itemStock" : 3899,
+    "minPrice" : 145.0,
+    "name" : "荷兰牛栏1段",
+    "id" : 41,
+    "stock" : 3899,
+    "picture" : ""
+  }, {
+    "itemName" : "德国爱他美pre段",
+    "itemStock" : 4447,
+    "minPrice" : 172.0,
+    "name" : "德国爱他美pre段",
+    "id" : 27,
+    "stock" : 4447,
+    "picture" : ""
+  }, {
+    "itemName" : "德国爱他美1+",
+    "itemStock" : 3834,
+    "minPrice" : 155.0,
+    "name" : "德国爱他美1+",
+    "id" : 71,
+    "stock" : 3834,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08031302095332.png@!100w-100h"
+  }, {
+    "itemName" : "荷兰牛栏2段",
+    "itemStock" : 4234,
+    "minPrice" : 145.0,
+    "name" : "荷兰牛栏2段",
+    "id" : 33,
+    "stock" : 4234,
+    "picture" : ""
+  }, {
+    "itemName" : "德国爱他美2段",
+    "itemStock" : 2026,
+    "minPrice" : 0.01,
+    "name" : "德国爱他美2段",
+    "id" : 24,
+    "stock" : 2026,
+    "picture" : ""
+  }, {
+    "itemName" : "小路测试商品",
+    "itemStock" : 3796,
+    "minPrice" : 1721.5,
+    "name" : "小路测试商品",
+    "id" : 49,
+    "stock" : 3796,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181201223265.png@!100w-100h"
+  }, {
+    "itemName" : "德国爱他美2+",
+    "itemStock" : 3985,
+    "minPrice" : 155.0,
+    "name" : "德国爱他美2+",
+    "id" : 36,
+    "stock" : 3985,
+    "picture" : ""
+  }, {
+    "itemName" : "花王L54尿不湿",
+    "itemStock" : 1066,
+    "minPrice" : 141.66666666666666,
+    "name" : "花王L54尿不湿",
+    "id" : 39,
+    "stock" : 1066,
+    "picture" : ""
+  }, {
+    "itemName" : "德国爱他美1段",
+    "itemStock" : 9927234,
+    "minPrice" : 172.0,
+    "name" : "德国爱他美1段",
+    "id" : 5,
+    "stock" : 9927234,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰牛栏3段",
+    "itemStock" : 3890,
+    "minPrice" : 145.0,
+    "name" : "荷兰牛栏3段",
+    "id" : 69,
+    "stock" : 3890,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08042058410914.png@!100w-100h"
+  }, {
+    "itemName" : "花王S82尿不湿",
+    "itemStock" : 2847,
+    "minPrice" : 110.0,
+    "name" : "花王S82尿不湿",
+    "id" : 11,
+    "stock" : 2847,
+    "picture" : ""
+  }, {
+    "itemName" : "花王L44拉拉裤",
+    "itemStock" : 100,
+    "minPrice" : 64.66666666666667,
+    "name" : "花王L44拉拉裤",
+    "id" : 9,
+    "stock" : 100,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰牛栏5段",
+    "itemStock" : 3911,
+    "minPrice" : 145.0,
+    "name" : "荷兰牛栏5段",
+    "id" : 23,
+    "stock" : 3911,
+    "picture" : ""
+  }, {
+    "itemName" : "花王XL38拉拉裤",
+    "itemStock" : 12294,
+    "minPrice" : 0.013333333333333334,
+    "name" : "花王XL38拉拉裤",
+    "id" : 59,
+    "stock" : 12294,
+    "picture" : ""
+  }, {
+    "itemName" : "花王M64尿不湿",
+    "itemStock" : 529,
+    "minPrice" : 0.09999999999999999,
+    "name" : "花王M64尿不湿",
+    "id" : 22,
+    "stock" : 529,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08031356292246.png@!100w-100h"
+  }, {
+    "itemName" : "德国施巴婴儿润肤露",
+    "itemStock" : 96,
+    "minPrice" : 0.01,
+    "name" : "德国施巴婴儿润肤露",
+    "id" : 20,
+    "stock" : 96,
+    "picture" : ""
+  }, {
+    "itemName" : "德国施巴婴儿沐浴露洗发露二合一",
+    "itemStock" : 100,
+    "minPrice" : 52.0,
+    "name" : "德国施巴婴儿沐浴露洗发露二合一",
+    "id" : 10,
+    "stock" : 100,
+    "picture" : ""
+  }, {
+    "itemName" : "美国世界最好有机高铁燕麦米粉2段",
+    "itemStock" : 98,
+    "minPrice" : 36.0,
+    "name" : "美国世界最好有机高铁燕麦米粉2段",
+    "id" : 12,
+    "stock" : 98,
+    "picture" : ""
+  }, {
+    "itemName" : "德国Salus Floradix绿版铁元",
+    "itemStock" : 99,
+    "minPrice" : 135.0,
+    "name" : "德国Salus Floradix绿版铁元",
+    "id" : 77,
+    "stock" : 99,
+    "picture" : ""
+  }, {
+    "itemName" : "美国世界最好有机高铁混合谷物米粉3段",
+    "itemStock" : 98,
+    "minPrice" : 36.0,
+    "name" : "美国世界最好有机高铁混合谷物米粉3段",
+    "id" : 40,
+    "stock" : 98,
+    "picture" : ""
+  }, {
+    "itemName" : "德国维蕾德Weleda无氟预防蛀牙可吞儿童宝宝牙膏",
+    "itemStock" : 43,
+    "minPrice" : 55.0,
+    "name" : "德国维蕾德Weleda无氟预防蛀牙可吞儿童宝宝牙膏",
+    "id" : 58,
+    "stock" : 43,
+    "picture" : ""
+  }, {
+    "itemName" : "德国Salus Floradix红版铁元",
+    "itemStock" : 100,
+    "minPrice" : 147.0,
+    "name" : "德国Salus Floradix红版铁元",
+    "id" : 37,
+    "stock" : 100,
+    "picture" : ""
+  }, {
+    "itemName" : "德国施巴婴儿护臀霜",
+    "itemStock" : 95,
+    "minPrice" : 52.0,
+    "name" : "德国施巴婴儿护臀霜",
+    "id" : 63,
+    "stock" : 95,
+    "picture" : ""
+  }, {
+    "itemName" : "德国维蕾德Weleda金盏花婴儿护臀霜",
+    "itemStock" : 48,
+    "minPrice" : 65.0,
+    "name" : "德国维蕾德Weleda金盏花婴儿护臀霜",
+    "id" : 54,
+    "stock" : 48,
+    "picture" : ""
+  }, {
+    "itemName" : "美国世界最好有机高铁纯米粉1段",
+    "itemStock" : 46,
+    "minPrice" : 36.0,
+    "name" : "美国世界最好有机高铁纯米粉1段",
+    "id" : 21,
+    "stock" : 46,
+    "picture" : ""
+  }, {
+    "itemName" : "德国博朗耳温枪IRT6020",
+    "itemStock" : 100,
+    "minPrice" : 275.0,
+    "name" : "德国博朗耳温枪IRT6020",
+    "id" : 15,
+    "stock" : 100,
+    "picture" : ""
+  }, {
+    "itemName" : "奖励花王M64尿不湿",
+    "itemStock" : 45,
+    "minPrice" : 0.01,
+    "name" : "奖励花王M64尿不湿",
+    "id" : 61,
+    "stock" : 45,
+    "picture" : "http://staticonline.hipac.cn/20150605/06052245570992587305.jpg@!100w-100h"
+  }, {
+    "itemName" : "特供花王xl38拉拉裤",
+    "itemStock" : 965,
+    "minPrice" : 0.1,
+    "name" : "特供花王xl38拉拉裤",
+    "id" : 55,
+    "stock" : 965,
+    "picture" : ""
+  }, {
+    "itemName" : "澳洲爱他美白金版profutura1段",
+    "itemStock" : 196,
+    "minPrice" : 172.0,
+    "name" : "澳洲爱他美白金版profutura1段",
+    "id" : 29,
+    "stock" : 196,
+    "picture" : ""
+  }, {
+    "itemName" : "澳洲爱他美白金版profutura3段",
+    "itemStock" : 200,
+    "minPrice" : 155.0,
+    "name" : "澳洲爱他美白金版profutura3段",
+    "id" : 57,
+    "stock" : 200,
+    "picture" : ""
+  }, {
+    "itemName" : "澳洲爱他美白金版profutura4段",
+    "itemStock" : 200,
+    "minPrice" : 155.0,
+    "name" : "澳洲爱他美白金版profutura4段",
+    "id" : 14,
+    "stock" : 200,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰美素3段",
+    "itemStock" : 994,
+    "minPrice" : 100.0,
+    "name" : "荷兰美素3段",
+    "id" : 51,
+    "stock" : 994,
+    "picture" : ""
+  }, {
+    "itemName" : "新西兰惠氏金装4段",
+    "itemStock" : 996,
+    "minPrice" : 118.0,
+    "name" : "新西兰惠氏金装4段",
+    "id" : 47,
+    "stock" : 996,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰美素5段",
+    "itemStock" : 100,
+    "minPrice" : 105.0,
+    "name" : "荷兰美素5段",
+    "id" : 44,
+    "stock" : 100,
+    "picture" : ""
+  }, {
+    "itemName" : "新西兰惠氏金装2段",
+    "itemStock" : 997,
+    "minPrice" : 150.0,
+    "name" : "新西兰惠氏金装2段",
+    "id" : 42,
+    "stock" : 997,
+    "picture" : ""
+  }, {
+    "itemName" : "新西兰惠氏金装3段",
+    "itemStock" : 995,
+    "minPrice" : 115.55,
+    "name" : "新西兰惠氏金装3段",
+    "id" : 2,
+    "stock" : 995,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰美素4段",
+    "itemStock" : 996,
+    "minPrice" : 105.0,
+    "name" : "荷兰美素4段",
+    "id" : 38,
+    "stock" : 996,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰美素2段",
+    "itemStock" : 1000,
+    "minPrice" : 100.0,
+    "name" : "荷兰美素2段",
+    "id" : 46,
+    "stock" : 1000,
+    "picture" : ""
+  }, {
+    "itemName" : "新西兰惠氏金装1段",
+    "itemStock" : 986,
+    "minPrice" : 150.0,
+    "name" : "新西兰惠氏金装1段",
+    "id" : 65,
+    "stock" : 986,
+    "picture" : ""
+  }, {
+    "itemName" : "英国牛栏2段",
+    "itemStock" : 197,
+    "minPrice" : 155.0,
+    "name" : "英国牛栏2段",
+    "id" : 35,
+    "stock" : 197,
+    "picture" : ""
+  }, {
+    "itemName" : "英国爱他美饥饿型",
+    "itemStock" : 200,
+    "minPrice" : 160.0,
+    "name" : "英国爱他美饥饿型",
+    "id" : 66,
+    "stock" : 200,
+    "picture" : ""
+  }, {
+    "itemName" : "澳洲爱他美金装加强4段",
+    "itemStock" : 197,
+    "minPrice" : 132.0,
+    "name" : "澳洲爱他美金装加强4段",
+    "id" : 18,
+    "stock" : 197,
+    "picture" : ""
+  }, {
+    "itemName" : "英国爱他美1段",
+    "itemStock" : 196,
+    "minPrice" : 160.0,
+    "name" : "英国爱他美1段",
+    "id" : 68,
+    "stock" : 196,
+    "picture" : ""
+  }, {
+    "itemName" : "英国爱他美2段",
+    "itemStock" : 200,
+    "minPrice" : 160.0,
+    "name" : "英国爱他美2段",
+    "id" : 67,
+    "stock" : 200,
+    "picture" : "http://staticonline.hipac.cn/20150605/06052245570992587305.jpg@!100w-100h"
+  }, {
+    "itemName" : "澳洲爱他美金装加强1段",
+    "itemStock" : 390,
+    "minPrice" : 160.0,
+    "name" : "澳洲爱他美金装加强1段",
+    "id" : 52,
+    "stock" : 390,
+    "picture" : ""
+  }, {
+    "itemName" : "英国牛栏3段",
+    "itemStock" : 197,
+    "minPrice" : 155.0,
+    "name" : "英国牛栏3段",
+    "id" : 74,
+    "stock" : 197,
+    "picture" : ""
+  }, {
+    "itemName" : "英国牛栏饥饿型",
+    "itemStock" : 126,
+    "minPrice" : 155.33,
+    "name" : "英国牛栏饥饿型",
+    "id" : 1,
+    "stock" : 126,
+    "picture" : "http://staticonline.hipac.cn/item/201509/09181748494510.jpg@!100w-100h"
+  }, {
+    "itemName" : "英国牛栏1段",
+    "itemStock" : 199,
+    "minPrice" : 155.0,
+    "name" : "英国牛栏1段",
+    "id" : 64,
+    "stock" : 199,
+    "picture" : ""
+  }, {
+    "itemName" : "英国爱他美4段",
+    "itemStock" : 200,
+    "minPrice" : 155.0,
+    "name" : "英国爱他美4段",
+    "id" : 79,
+    "stock" : 200,
+    "picture" : ""
+  }, {
+    "itemName" : "英国牛栏4段",
+    "itemStock" : 200,
+    "minPrice" : 155.0,
+    "name" : "英国牛栏4段",
+    "id" : 31,
+    "stock" : 200,
+    "picture" : ""
+  }, {
+    "itemName" : "英国爱他美3段",
+    "itemStock" : 196,
+    "minPrice" : 155.0,
+    "name" : "英国爱他美3段",
+    "id" : 4,
+    "stock" : 196,
+    "picture" : ""
+  }, {
+    "itemName" : "澳洲爱他美金装加强2段",
+    "itemStock" : 400,
+    "minPrice" : 170.0,
+    "name" : "澳洲爱他美金装加强2段",
+    "id" : 73,
+    "stock" : 400,
+    "picture" : ""
+  }, {
+    "itemName" : "澳洲爱他美金装加强3段",
+    "itemStock" : 200,
+    "minPrice" : 130.0,
+    "name" : "澳洲爱他美金装加强3段",
+    "id" : 53,
+    "stock" : 200,
+    "picture" : ""
+  }, {
+    "itemName" : "尤妮佳L54尿不湿",
+    "itemStock" : 276,
+    "minPrice" : 92.0,
+    "name" : "尤妮佳L54尿不湿",
+    "id" : 72,
+    "stock" : 276,
+    "picture" : ""
+  }, {
+    "itemName" : "尤妮佳M64尿不湿",
+    "itemStock" : 281,
+    "minPrice" : 92.0,
+    "name" : "尤妮佳M64尿不湿",
+    "id" : 28,
+    "stock" : 281,
+    "picture" : ""
+  }, {
+    "itemName" : "尤妮佳S82尿不湿",
+    "itemStock" : 292,
+    "minPrice" : 92.0,
+    "name" : "尤妮佳S82尿不湿",
+    "id" : 19,
+    "stock" : 292,
+    "picture" : ""
+  }, {
+    "itemName" : "尤妮佳NB90尿不湿",
+    "itemStock" : 298,
+    "minPrice" : 92.0,
+    "name" : "尤妮佳NB90尿不湿",
+    "id" : 62,
+    "stock" : 298,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝益生元3段",
+    "itemStock" : 79,
+    "minPrice" : 120.0,
+    "name" : "德国喜宝益生元3段",
+    "id" : 7,
+    "stock" : 79,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝益生元1+段",
+    "itemStock" : 79,
+    "minPrice" : 110.0,
+    "name" : "德国喜宝益生元1+段",
+    "id" : 25,
+    "stock" : 79,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝益生元初段",
+    "itemStock" : 83,
+    "minPrice" : 125.0,
+    "name" : "德国喜宝益生元初段",
+    "id" : 76,
+    "stock" : 83,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝有机12+段",
+    "itemStock" : 86,
+    "minPrice" : 125.0,
+    "name" : "德国喜宝有机12+段",
+    "id" : 8,
+    "stock" : 86,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝有机pre段",
+    "itemStock" : 98,
+    "minPrice" : 120.0,
+    "name" : "德国喜宝有机pre段",
+    "id" : 34,
+    "stock" : 98,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝益生元2+段",
+    "itemStock" : 94,
+    "minPrice" : 110.0,
+    "name" : "德国喜宝益生元2+段",
+    "id" : 16,
+    "stock" : 94,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝有机1段",
+    "itemStock" : 0,
+    "minPrice" : 120.0,
+    "name" : "德国喜宝有机1段",
+    "id" : 56,
+    "stock" : 0,
+    "picture" : ""
+  }, {
+    "itemName" : "德国喜宝益生元2段",
+    "itemStock" : 87,
+    "minPrice" : 120.0,
+    "name" : "德国喜宝益生元2段",
+    "id" : 26,
+    "stock" : 87,
+    "picture" : ""
+  }, {
+    "itemName" : "花王卫生巾S日用（20.5cm*28）",
+    "itemStock" : 461,
+    "minPrice" : 28.0,
+    "name" : "花王卫生巾S日用（20.5cm*28）",
+    "id" : 13,
+    "stock" : 461,
+    "picture" : ""
+  }, {
+    "itemName" : "花王卫生巾S夜用（35cm*13片）",
+    "itemStock" : 474,
+    "minPrice" : 28.0,
+    "name" : "花王卫生巾S夜用（35cm*13片）",
+    "id" : 30,
+    "stock" : 474,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08032044597572.png@!100w-100h"
+  }, {
+    "itemName" : "花王卫生巾S夜用（30cm*15片）",
+    "itemStock" : 459,
+    "minPrice" : 28.0,
+    "name" : "花王卫生巾S夜用（30cm*15片）",
+    "id" : 32,
+    "stock" : 459,
+    "picture" : "http://staticonline.hipac.cn/item/201508/08032044597572.png@!100w-100h"
+  }, {
+    "itemName" : "花王卫生巾S日用（25cm*19片）",
+    "itemStock" : 1451,
+    "minPrice" : 0.3333333333333333,
+    "name" : "花王卫生巾S日用（25cm*19片）",
+    "id" : 50,
+    "stock" : 1451,
+    "picture" : ""
+  }, {
+    "itemName" : "荷兰美素1段",
+    "itemStock" : 307,
+    "minPrice" : 100.0,
+    "name" : "荷兰美素1段",
+    "id" : 6,
+    "stock" : 307,
+    "picture" : ""
+  } ],
+  "total" : 0
+}

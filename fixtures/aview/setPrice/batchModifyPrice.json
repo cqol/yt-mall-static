@@ -1,0 +1,11 @@
+{
+  "gulpPath": "",
+  "currentUser": {
+    "userNickName": "张三",
+    "userType": "2",
+    "mallAuth": true,
+    "shopVo": {
+      "shopName": "测试门店"
+    }
+  }
+}

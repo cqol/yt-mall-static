@@ -1,0 +1,21 @@
+$table-border: #e1e1e1;
+
+.table-wrap {
+  padding: 15px;
+}
+
+.jq-table {
+  width: 100%;
+  border-top: none;
+  border-right: 1px solid $table-border;
+
+  th {
+    background-color: #fff;
+    border-top: 1px solid $table-border;
+    border-left: 1px solid $table-border;
+  }
+  td {
+    border-left: 1px solid $table-border;
+  }
+
+}

@@ -1,0 +1,160 @@
+#set($title="批量改价")
+#set($mainMenu="mall")
+#set($menu="batchModifyPrice")
+#parse("./hipac/common/header.vm")
+
+<link rel="stylesheet" href="${gulpPath}/styles/price/batchModifyPrice.css?t=201510160935">
+
+<div class="main mall-decoration">
+
+  <div class="bg-e p-10">
+    <a class="cur-p mr-10">商品管理</a>
+    <i class="icon iconfont cor-grey mr-10 fs-12">&#xe63e;</i>
+    <a class="cur-p mr-10">批量改价</a>
+  </div>
+  <input type="hidden" id="basePath" value="$!{base}"/>
+
+  <div class="main-wrap p-10">
+    <div class="b-1">
+      <div class="bg-e p-10">
+        批量设置利润
+      </div>
+      #if(!$!status.val)
+      <form target="_blank" id="postSetForm">
+        <div class="wrap-box">
+          <ul class="w-100 of-h height-30" id="cateBrandWrap">
+            <li class="f-l mr-10 w-100px ta-r">
+              <label class="d-ib height-30">选择已上架商品：</label>
+            </li>
+            <li class="f-l mr-10">
+              <select class="select w-140px d-ib" name="cateId">
+                <option value="">--全部类目--</option>
+              </select>
+            </li>
+            <li class="f-l mr-10">
+              <select class="select w-140px d-ib" name="brandId">
+                <option value="">--全部品牌--</option>
+              </select>
+            </li>
+            <li class="f-l mr-10">
+              <select class="select w-140px d-ib" name="itemId">
+                <option value="">--全部商品--</option>
+              </select>
+            </li>
+            <li class="f-l mr-10">
+              <select class="select w-140px d-ib" name="preferenceId">
+                <option value="">--全部规格--</option>
+              </select>
+            </li>
+            <li class="f-l ml-10">
+              <a class="link" href="#" target="">
+                查看当前商品价格
+              </a>
+            </li>
+          </ul>
+          <ul class="w-100 of-h mt-20">
+            <li class="f-l mr-10 w-100px ta-r height-30">
+              <i class="icon iconfont cur-p question J_qtips">&#xe634;</i> <label class="d-ib ">利润设置：</label>
+            </li>
+            <li class="f-l">
+              <!--单间利润额-->
+              <div class="height-30 of-h">
+                <ul class="">
+                  <li class="f-l pl-5 w-100px">
+                    <input name="batchPriceType" class="isPriceRadio" value="0" type="radio"/>
+                    <label class="d-ib ml-5">单件利润额：</label>
+                  </li>
+                  <!--利润输入框 star-->
+                  <li class="f-l pl-5">
+                    <div class="f-l">
+                      <div class="input-wrap of-h f-l J_setPrice">
+                      <span class="icon-wrap ta-c J_reduce">
+                        <i class="icon iconfont cur-p fs-14">&#xe6ca;</i>
+                      </span>
+                        <input type="text" class="f-l ta-c w-80px" value="0" maxlength="5">
+                      <span class="icon-wrap ta-c J_add">
+                        <i class="icon iconfont cur-p fs-14">&#xe663;</i>
+                      </span>
+                      </div>
+                    <span class="f-l ml-5">
+                      元
+                    </span>
+                    </div>
+                  </li>
+                  <!--利润输入框 end-->
+
+                  <li class="f-l pl-5 ml-20">
+                    <input type="checkbox" class="isPriceCheckbox" name="isKeep" value="1">
+                    <label class="d-ib ml-5 cor-3">始终保持该利润额</label>
+                  </li>
+                </ul>
+              </div>
+              <!--利润幅度-->
+              <div class="height-30 of-h mt-20">
+                <ul class="">
+                  <li class="f-l pl-5 w-100px">
+                    <input name="batchPriceType" class="isPercentRadio" value="1" type="radio"/>
+                    <label class="d-ib ml-5">利润幅度：</label>
+                  </li>
+                  <!--利润百分比输入框 star-->
+                  <li class="f-l pl-5">
+                    <div class="f-l">
+                      <div class="input-wrap of-h f-l J_setPercent">
+                      <span class="icon-wrap ta-c J_reduce">
+                        <i class="icon iconfont cur-p fs-14">&#xe6ca;</i>
+                      </span>
+                        <input type="text" class="f-l ta-c w-80px" value="0" maxlength="3">
+                      <span class="icon-wrap ta-c J_add">
+                        <i class="icon iconfont cur-p fs-14">&#xe663;</i>
+                      </span>
+                      </div>
+                    <span class="f-l ml-5">
+                      %
+                    </span>
+                    </div>
+                  </li>
+                  <!--利润百分比输入框 end-->
+
+                  <li class="f-l pl-5 ml-20">
+                    <input type="checkbox" class="isPercentCheckbox" name="isKeep" value="1">
+                    <label class="d-ib ml-5 cor-3">始终保持该利润幅度</label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+
+          <div class="ta-r mt-10 mr-50">
+            <span class="btn mr-10" id="setPriceBtn">立即修改利润</span>
+            <span class="btn btn-c99" id="resetDefaultBtn">重置系统价格</span>
+
+          </div>
+        </div>
+        <input type="hidden" name="priceValue" value="0"/>
+
+      </form>
+      #else
+      <div class="w-100 heigh-30 ta-c pt-30 pb-30">
+        批量设置利润中，请稍等...
+      </div>
+      #end
+      <!--批量设置利润 end-->
+      <div class="bg-e p-10">
+        历史价格调整记录
+      </div>
+      <div class="table-wrap">
+        <table class="jq-table" id="J_table">
+
+        </table>
+        <div class="of-h mt-20 mb-10" id="Pagination">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+#parse("./hipac/common/footer.vm")
+
+<script src="${gulpPath}/scripts/price/batchModifyPrice.js?t=201510160935"></script>

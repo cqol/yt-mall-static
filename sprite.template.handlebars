@@ -1,0 +1,27 @@
+@mixin {{options.folder}}-sprite($key) {
+  $map: (
+    {{#each items}}
+      {{name}}: {{px.x}} {{px.y}} {{px.offset_x}} {{px.offset_y}} {{px.width}} {{px.height}} {{px.total_width}} {{px.total_height}} '{{{../options.imgUrlRoot}}}{{{escaped_image}}}' '{{name}}',
+    {{/each}}
+  );
+  @mixin {{options.folder}}-sprite-width($sprite) {
+    width: nth($sprite, 5);
+  }
+  @mixin {{options.folder}}-sprite-height($sprite) {
+    height: nth($sprite, 6);
+  }
+  @mixin {{options.folder}}-sprite-position($sprite) {
+    $sprite-offset-x: nth($sprite, 3);
+    $sprite-offset-y: nth($sprite, 4);
+    background-position: $sprite-offset-x  $sprite-offset-y;
+  }
+  @mixin {{options.folder}}-sprite-image($sprite) {
+    $sprite-image: nth($sprite, 9);
+    background-image: url(#{$sprite-image});
+  }
+  $sprite: map-get($map, $key);
+  @include {{options.folder}}-sprite-image($sprite);
+  @include {{options.folder}}-sprite-position($sprite);
+  @include {{options.folder}}-sprite-width($sprite);
+  @include {{options.folder}}-sprite-height($sprite);
+}

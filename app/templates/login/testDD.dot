@@ -1,0 +1,4 @@
+<img class="ml-50" src="{{=it.url}}" alt="">
+<span class="f-r mr-50 fs-16" style="color: #999; line-height: 45px;">
+{{=it.title}}
+</span>

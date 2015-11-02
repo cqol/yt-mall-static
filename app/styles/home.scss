@@ -1,0 +1,35 @@
+@import "./shared/foundation/functions";
+@import "./shared/common";
+
+/*body{ background: #f2f2f2;}*/
+.w-1200px{ width: 1120px;}
+.bg-fc{ background: #FCFCFC;}
+.btn{ height: 50px; line-height: 50px; font-size: 16px;}
+h4{ height: 40px; line-height: 40px; padding-left: 20px; color: #ff5c5c; font-size: 18px; background: #fafafa;}
+.w-340{width: 340px;}
+.fs-50{ font-size: 34px;height: 50px;  line-height: 50px;}
+.cor-greyn{color: #8c8d8d;}
+table td{   padding: 0 20px; border-top: 1px solid #e1e1e1;}
+.bg-yy{ background: #fff url(../../images/yy-bg.png) 0 0 no-repeat; width: 100%; height: 320px;}
+.wx-info{ color: #808080;}
+.error-wrap .err{ color:#66ABFF;}
+.error-wrap h4{ border-left: 2px solid #808080;}
+.w-249px{width: 249px;}
+.w-250px{width: 250px;}
+.err{color:#66ABFF;}
+.notice-h{    height: 411px;}
+.btn-n{   display: inline-block;width: 175px; height: 50px;  line-height: 50px;  font-size: 16px;padding: 0;  text-align: center;  color: #fff;  background-color: #FF5C5C;}
+
+
+
+@import "./generated/home";
+
+
+.test_sprites {
+  display: block;
+  @include home-sprite(foo);
+}
+.test_zan {
+  display: block;
+  @include home-sprite(zan);
+}
