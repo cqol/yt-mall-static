@@ -2,3 +2,27 @@
 @import "./shared/_iconfont";
 @import "./shared/ui-dialog";
 
+
+@import "./shared/normalize";
+@import "./shared/foundation";
+
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+#top-bar {
+  background-color: #fff000;
+  text-align: center;
+  height: rem-calc(80);
+  line-height: rem-calc(80);
+  font-size: rem-calc(36);
+  display: none;
+  color: #222;
+}

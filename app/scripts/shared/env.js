@@ -7,6 +7,7 @@ let ValidIpAddressRegex = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.)
 
 env.services = {
   main: "http://www.hipac.cn",
+	cms: "http://cmsproxy.lingshijia.com",
 	basePath: $("#basePath").val()
 };
 
@@ -17,6 +18,22 @@ env.apis = {
 		findAllCates: "/admin/goods/goodscate/findAllCates.json",
 		goodsCateToBrand: "/admin/goods/brand/goodsCateToBrand.json",
 		itemWhenLink: "/admin/item/item/itemWhenLinkOnsale.json"
+	},
+	zhuanti: {
+		getZanComment: "/reportFeedback.do",
+		addFav: "/addFav.do",
+		deleteFav: "/deleteFav.do"
+	},
+	comment: {
+		getComment: "/findCommentByPid.do",
+		addComment: "/saveComment.do"
+	},
+	cipher: {
+		addCount: "/addAnHaoCount.do"
+	},
+	agentApply:{
+		addApplyInfo:"/addSellerInfo.do",
+		getApplyInfo:"/getSellerInfo.do"
 	}
 };
 

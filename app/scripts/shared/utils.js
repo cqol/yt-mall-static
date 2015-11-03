@@ -7,7 +7,52 @@ let variables = {
 };
 
 utils = {
+	// 取url中query string的值
+	getUrlParam: function (url, key) {
+		var result = new RegExp("[\\?&]" + key + "=([^&#]*)", "i").exec(url);
+		return result && decodeURIComponent(result[1]) || "";
+	},
+	// 获取window和滚动条参数
+	getWindowDimensions: function() {
+		var documentElement = document.documentElement;
 
+		return ("pageYOffset" in window) ?
+		{
+			// W3C
+			scrollTop: window.pageYOffset,
+			scrollLeft: window.pageXOffset,
+			height: window.innerHeight,
+			width: window.innerWidth
+		} : {
+			// IE 8 and below
+			scrollTop: documentElement.scrollTop,
+			scrollLeft: documentElement.scrollLeft,
+			height: documentElement.clientHeight,
+			width: documentElement.clientWidth
+		};
+	},
+	// 获取元素位置
+	getPosition: function(el) {
+		var left = 0,
+			top = 0;
+
+		while (el && el.offsetParent) {
+			left += el.offsetLeft;
+			top += el.offsetTop;
+			el = el.offsetParent;
+		}
+		return { top: top, left: left };
+	},
+	// 判断元素是否在可视范围内
+	insideViewport: function(el) {
+		var win = this.getWindowDimensions(),
+			pos = this.getPosition(el),
+			top = pos.top,
+			bot = pos.top + el.offsetHeight;
+
+		return bot >= win.scrollTop &&
+			top <= win.scrollTop + win.height;
+	},
 	isBottom(obj) {
 		obj = obj || $(".column-wrap");
 		var flag = obj.offset().top + obj.get(0).scrollHeight - variables.SCROLLS <= $(window).height() + $(window).scrollTop();

@@ -1,0 +1,22 @@
+{
+    "code": 1000,
+    "msg": "请求成功",
+    "data":
+    {
+        "commentCount": "3",
+        "comment":
+        {
+            "id": 5,
+            "content": "边吃边看边晒单，口感偏甜，挺喜欢的，值得再买！",
+            "targetId": 1111,
+            "userId": 4321,
+            "userHeadImgUrl":"http://placehold.it/100x100",
+            "userName":"幽灵",
+            "type": 1,
+            "status": 0,
+            "step":"26",
+            "showTime":"1分钟前",
+            "createTime":"14667767677"
+        }
+    }
+}

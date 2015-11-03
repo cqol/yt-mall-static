@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    #parse('/shared/metas.vm')
+    <title>评论</title>
+    #parse('/shared/styles.vm')
+    <link rel="stylesheet" href="/styles/comment.css">
+    #parse('/shared/flexible.vm')
+  </head>
+
+  <body data-reportid="5678">
+    <h1 class="t-header" id="top-bar">
+      评论
+    </h1>
+    <div class="t-main">
+    </div>
+    #parse('/shared/scripts.vm')
+    <script src="/scripts/comment.js"></script>
+  </body>
+</html>

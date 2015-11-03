@@ -1,0 +1,19 @@
+{
+    "code": 1000,
+    "msg": "请求成功",
+    "data":
+    {
+        "pager":
+        {
+            "currentPageIndex": 1,
+            "pageCount": 3,
+            "itemCount": 6,
+            "pageSize": 2,
+            "firstItemIndex": 0,
+            "showCurrentPageIndex": 2
+        },
+        "list":
+        [
+        ]
+    }
+}
