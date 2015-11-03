@@ -2,6 +2,14 @@ import $ from "jquery";
 import _ from "lodash";
 import env from "../../shared/env";
 import "./serializeJson";
+import Handlebars from "hbsfy/runtime";
+import compareHelpers from "handlebars-helpers/lib/helpers/helpers-comparisons";
+import tpl_status from "../../../templates/home/status";
+
+console.log(tpl_status);
+compareHelpers.register(Handlebars);
+
+$('.table-wrap').append(tpl_status({commentCount: 'ssfffffTEts'}));
 
 exports.setProduct = {
 	init: function () {

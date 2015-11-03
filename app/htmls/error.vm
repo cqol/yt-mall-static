@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        #parse('/shared/metas.vm')
+        <title>${title}</title>
+        #parse('/shared/styles.vm')
+        <link rel="stylesheet" href="/styles/error.css">
+        #parse('/shared/flexible.vm')
+
+    </head>
+
+    <body>
+        <div class="box">
+            <p>
+                ${info}
+            </p>
+            <a href="${url}">
+                <img src="/images/error/err.png"/>
+            </a>
+        </div>
+    </body>
+</html>

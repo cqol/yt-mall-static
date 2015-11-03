@@ -1,0 +1,9 @@
+<!-- build:js(.) /scripts/global.js -->
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/lodash/index.js"></script>
+<script src="/node_modules/backbone/backbone.js"></script>
+<script src="/node_modules/fastclick/lib/fastclick.js"></script>
+<script src="/node_modules/artDialog/dist/dialog.js"></script>
+<script src="/node_modules/react/dist/react.js"></script>
+<script src="/node_modules/react/dist/react-with-addons.min.js"></script>
+<!-- endbuild -->

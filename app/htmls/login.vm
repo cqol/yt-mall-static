@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        #parse('/shared/metas.vm')
+        <title>${title}</title>
+        #parse('/shared/styles.vm')
+        <link rel="stylesheet" href="/styles/login.css">
+        #parse('/shared/flexible.vm')
+    </head>
+
+    <body>
+        <div class="login-container">
+
+            <div class="va-m w-100" style="display: table-cell">
+
+                <div class="login-box">
+
+                    <div id="logobox" class="bg-w pos-a w-100 of-h">
+
+                    </div>
+
+                    <div class="login-outer">
+
+                        <div class="login-ipts">
+                            <form id="aform" name="aform" action="/pub/login/submit.do" method="post" class="aform"
+                                  autocomplete="off">
+                                <div class="ipt-wrap">
+                                    <div class="ipt-icon">
+                                        <i class="iconfont" style="font-size: 24px;"></i>
+                                    </div>
+                                    <label class="placeholder d-n">请输入您的用户名</label>
+                                    <input name="userNickName" placeholder="请输入您的用户名" value="" id="username" type="text"
+                                           class="login-ipt"
+                                           autocomplete="off">
+                                </div>
+                                <div class="ipt-wrap">
+                                    <div class="ipt-icon">
+                                        <i class="iconfont" style="font-size: 24px;"></i>
+                                    </div>
+                                    <label class="placeholder d-n">请输入您的密码</label>
+                                    <input name="userPass" id="password" placeholder="请输入您的密码" type="password"
+                                           class="login-ipt">
+                                </div>
+                                <div class="clearfix">
+                                    <div class="ipt-wrap f-l w-50">
+                                        <label class="placeholder d-n">请输入验证码</label>
+                                        <input name="kaptcha" id="kaptcha" placeholder="请输入验证码" type="text"
+                                               class="login-ipt"
+                                               style="width:100%">
+                                    </div>
+                                    <div class="w-40 f-r" style="margin-top: 15px;">
+                                        <img id="kaptchaImage" src="http://www.hipac.cn/pub/kaptchaImage/generator.do"
+                                             width="100%" height="50">
+                                    </div>
+                                </div>
+
+                                <div onclick="login()" class="login-btn">
+                                    登录
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                    </div>
+
+
+                    <!--<div id="copyright">
+                        <br/><br/>
+                        浙ICP备15011191号
+                    </div>
+                    <div class="ui-layout-south">
+                        ==洋驼业务管理平台==
+                    </div>-->
+
+
+                </div>
+
+                <div class="link-wrap mt-40" style="margin-top: 60px">
+                    <div class="link-inner clearfix">
+                        <ul>
+                            <li>
+                                <a class="cor-w" target="_blank" href="/static/aboutus/about.html#m5">
+                                    <div class="col-wrap">
+                                        <div class="link-icon" style="">
+                                            <i class="iconfont"></i>
+                                        </div>
+                                        申请加盟
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cor-w" target="_blank" href="/static/aboutus/about.html#m3">
+                                    <div class="col-wrap">
+                                        <div class="link-icon">
+                                            <i class="iconfont"></i>
+                                        </div>
+                                        常见问题
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cor-w" target="_blank" href="/static/aboutus/about.html#m4">
+                                    <div class="col-wrap">
+                                        <div class="link-icon">
+                                            <i class="iconfont"></i>
+                                        </div>
+                                        行业新闻
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="cor-w" target="_blank" href="/pub/authorization/openAuthorization.do">
+                                    <div class="col-wrap">
+                                        <div class="link-icon">
+                                            <i class="iconfont"></i>
+                                        </div>
+                                        备案查询
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w-100 mb-10 ta-c pos-a" style="top: 96%; left: 0; min-width: 1000px;">
+                <p style="color: #999;">浙ICP备15011191号</p>
+            </div>
+
+        </div>
+        #parse('/shared/scripts.vm')
+        <script src="/scripts/login.js"></script>
+    </body>
+</html>
