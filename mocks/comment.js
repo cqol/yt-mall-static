@@ -12,7 +12,7 @@ var loadJSON = function (name) {
 exports.mock = function (app) {
   app.get("/findCommentByPid.do", function (req, res, next) {
     var path, data,
-      requestTime = req.query.requestTime;
+      requestTime = req.query.requestTime || '';
     if (requestTime === "") {
       path = "comment/findCommentByPid_1";
     } else if (requestTime.indexOf("first") !== -1) {
